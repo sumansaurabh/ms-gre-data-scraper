@@ -1,0 +1,22 @@
+<div class="form-content">
+	Search Key: <input type="text" ng-model="form_content.search_key" style ="width: 30%"> 
+	Total Pages to fetch: <input type="number" ng-model="form_content.page_limit">
+	<button type="button" ng-click="fetch_grad_cafe_data()">Submit</button>
+	<hr>
+</div>
+
+
+<div id="gradcafe-create-table">
+	<table id="gradcafe-table" class="display" width="100%"></table>
+</div>
+
+<br>
+<hr>
+<div id="gradcafe-create-chart" class="container-fluid">
+	<div class="row">
+		<div class="col-sm-6"><div id="line-chart-quant"></div></div>
+		<div class="col-sm-6"><div id="line-chart-verbal"></div>
+	</div>
+	
+	<!-- <div id="line-chart-verbal"></div> -->
+</div>
