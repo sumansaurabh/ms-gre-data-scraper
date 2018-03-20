@@ -1,6 +1,6 @@
-# AngularJS + Flask Boilerplate App
+# GradCafe GRE data scraper
 
-A template for building apps with an Angular frontend and a Flask / python backend.
+1. Use the URL: https://ms-scraper.herokuapp.com/
 
 ### How to Get Started
 
@@ -16,6 +16,6 @@ A template for building apps with an Angular frontend and a Flask / python backe
 > python manage.py create_db && python manage.py seed_db --seedfile 'data/db_items.json'
 
 5. check out your blog
-> http://localhost:5000/blog
+> http://localhost:5000/
 
 6. if you like this project, give it a star :)
