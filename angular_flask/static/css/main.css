@@ -11,7 +11,7 @@
 	font-weight: bold;
 }
 
-th, td { white-space: nowrap; }
+th, td { white-space: normal; }
 div.dataTables_wrapper {
     margin: 0 auto;
 }
